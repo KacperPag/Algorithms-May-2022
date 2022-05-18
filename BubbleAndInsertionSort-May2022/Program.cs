@@ -4,9 +4,8 @@ namespace BubbleAndInsertionSort_May2022
 {
     class Program
     {
-        static int[] generatedNumbers;
-        static int[] sortedNumbers;
-        static bool inOrder;
+        static int[] numbers;
+        static int numOfRuns;
 
         static void Main(string[] args)
         {
@@ -14,14 +13,13 @@ namespace BubbleAndInsertionSort_May2022
         }
         static void GenerateNumbers()
         {
-            generatedNumbers = new int[10];
-            sortedNumbers = new int[10];
-            inOrder = false;
+            numbers = new int[10];
+            numOfRuns = 0;
             Console.WriteLine("Generating numbers... Please wait");
-            for (int i = 0; i < generatedNumbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Random random = new Random();
-                generatedNumbers[i] = random.Next(0, 100);
+                numbers[i] = random.Next(0, 100);
             }
             Console.WriteLine("Numbers have been generated!");
             Console.WriteLine("Which type of sort would you like to use? Bubble/Insertion Sort");
@@ -34,31 +32,57 @@ namespace BubbleAndInsertionSort_May2022
                 InsertionSort();
             }
         }
+
+        static void ListGeneratedNumbers()
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+        }
+        
+        #region BubbleSort
         static void BubbleSort()
         {
             Console.WriteLine("Bubble sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            for (int i = 0; i < generatedNumbers.Length; i++)
-            {
-                Console.WriteLine(generatedNumbers[i]);
-            }
+            ListGeneratedNumbers();
 
-            while (inOrder == false)
+            while (numOfRuns <= 10)
+            {
+                for (int i = 0; i < numbers.Length - 1; i++)
+                {
+                    int currentNum = numbers[i];
+                    int nextNum = numbers[i + 1];
+
+                    if (currentNum > nextNum)
+                    {
+                        numbers[i] = nextNum;
+                        numbers[i + 1] = currentNum;
+                    }
+                }
+                numOfRuns++;
+            }
+            Console.WriteLine("----------------------------------------------");
+            ListGeneratedNumbers();
+        }
+        #endregion BubbleSort
+
+        #region InsertionSort
+        static void InsertionSort()
+        {
+            Console.WriteLine("Insertion sort it is!");
+            Console.WriteLine("These are the numbers that are going to be sorted...");
+            ListGeneratedNumbers();
+
+/*            while (inOrder == false)
             {
                 for (int i = 0; i < generatedNumbers.Length; i++)
                 {
 
                 }
-            }
+            }*/
         }
-        static void InsertionSort()
-        {
-            Console.WriteLine("Insertion sort it is!");
-            Console.WriteLine("These are the numbers that are going to be sorted...");
-            for (int i = 0; i < generatedNumbers.Length; i++)
-            {
-                Console.WriteLine(generatedNumbers[i]);
-            }
-        }
+        #endregion InsertionSort
     }
 }
