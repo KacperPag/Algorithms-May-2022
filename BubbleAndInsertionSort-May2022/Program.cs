@@ -29,10 +29,12 @@ namespace BubbleAndInsertionSort_May2022
             Console.WriteLine("Numbers have been generated!");
             //this asks the user for which type of soring algorithm they want to use
             Console.WriteLine("Which type of sort would you like to use? Bubble/Insertion Sort");
+            //if the user input is buuble then the bubble sort algorithm sorts the numbers
             if (Console.ReadLine().ToLower() == "bubble")
             {
                 BubbleSort();
             }
+            //otherwise it sorts the numbers using insertion sort
             else
             {
                 InsertionSort();
@@ -47,7 +49,11 @@ namespace BubbleAndInsertionSort_May2022
                 Console.WriteLine(numbers[i]);
             }
         }
-        
+        static bool IsSorted()
+        {
+            return false;
+        }
+
         #region BubbleSort
         static void BubbleSort()
         {
