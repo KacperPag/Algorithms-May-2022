@@ -156,7 +156,8 @@ namespace BubbleAndInsertionSort_May2022
                 {
                     numbers[i] = nextNum;
                     numbers[i + 1] = currentNum;
-                    i = 0;
+                    if (i >= 1){ i = i - 1; }
+
                 }
                 else
                 {
@@ -188,7 +189,7 @@ namespace BubbleAndInsertionSort_May2022
                 {
                     numbers[i] = lastNum;
                     numbers[i - 1] = currentNum;
-                    i = 1;
+                    if (i >= 1) { i = i - 1; }
                 }
                 else
                 {
