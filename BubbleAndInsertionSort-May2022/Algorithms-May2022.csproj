@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>BubbleAndInsertionSort_May2022</RootNamespace>
+    <RootNamespace>Algorithms_May2022</RootNamespace>
   </PropertyGroup>
 
 </Project>
