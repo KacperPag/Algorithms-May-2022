@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace BubbleAndInsertionSort_May2022
+namespace Algorithms
 {
     class Program
     {
