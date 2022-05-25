@@ -143,7 +143,7 @@ namespace Algorithms
         {
             Console.WriteLine("Insertion sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            //ListNumbers();
+            ListNumbers();
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -157,7 +157,7 @@ namespace Algorithms
                 {
                     numbers[i] = nextNum;
                     numbers[i + 1] = currentNum;
-                    if (i >= 1){ i = i - 1; }
+                    if (i >= 1) { i--; }
 
                 }
                 else
@@ -181,20 +181,20 @@ namespace Algorithms
             stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            for (int i = 1; i < numbers.Length;)
+            for (int i = 0; i < numbers.Length - 1;)
             {
                 int currentNum = numbers[i];
-                int lastNum = numbers[i - 1];
+                int nextNum = numbers[i + 1];
 
-                if (currentNum > lastNum)
+                if (currentNum < nextNum)
                 {
-                    numbers[i] = lastNum;
-                    numbers[i - 1] = currentNum;
-                    if (i >= 1) { i = i - 1; }
+                    numbers[i] = nextNum;
+                    numbers[i + 1] = currentNum;
+                    i++;
                 }
                 else
                 {
-                    i++;
+                    if (i >= 1) { i--; }        
                 }
             }
             stopwatch.Stop();

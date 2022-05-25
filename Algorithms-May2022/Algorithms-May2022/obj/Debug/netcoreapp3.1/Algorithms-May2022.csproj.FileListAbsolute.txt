@@ -1,0 +1,14 @@
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.exe
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.deps.json
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.runtimeconfig.json
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.runtimeconfig.dev.json
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.dll
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.pdb
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.csproj.AssemblyReference.cache
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.GeneratedMSBuildEditorConfig.editorconfig
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.AssemblyInfoInputs.cache
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.AssemblyInfo.cs
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.csproj.CoreCompileInputs.cache
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.dll
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.pdb
+\\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.genruntimeconfig.cache
