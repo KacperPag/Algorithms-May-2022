@@ -5,6 +5,7 @@ namespace BubbleAndInsertionSort_May2022
 {
     class Program
     {
+        const string divider = "------------------------------";
         static Stopwatch stopwatch;
         static int[] numbers;
         static bool hasSwapped;
@@ -15,7 +16,7 @@ namespace BubbleAndInsertionSort_May2022
         }
         static void GenerateNumbers()
         {
-            Console.WriteLine("How many numbers would you like to use?");
+            Console.WriteLine("How many numbers would you like to sort?");
             int userInput = int.Parse(Console.ReadLine());
             numbers = new int[userInput];
             hasSwapped = true;
@@ -23,7 +24,7 @@ namespace BubbleAndInsertionSort_May2022
             for (int i = 0; i < numbers.Length; i++)
             {
                 Random random = new Random();
-                numbers[i] = random.Next(0, 1000);
+                numbers[i] = random.Next(0, 100000);
             }
             Console.WriteLine("Numbers have been generated!");
             Console.WriteLine("Which type of sort would you like to use? Bubble/Insertion Sort");
@@ -61,7 +62,7 @@ namespace BubbleAndInsertionSort_May2022
         }
         static void AskSortAgain()
         {
-            Console.WriteLine("------------------------------");
+            Console.WriteLine(divider);
             Console.WriteLine("Would you like to sort some numbers again?");
             if (Console.ReadLine().ToLower() == "yes")
             {
@@ -96,7 +97,7 @@ namespace BubbleAndInsertionSort_May2022
                 }
             }
             stopwatch.Stop();
-            Console.WriteLine("------------------------------");
+            Console.WriteLine(divider);
             ListNumbers();
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
@@ -129,7 +130,7 @@ namespace BubbleAndInsertionSort_May2022
                 }
             }
             stopwatch.Stop();
-            Console.WriteLine("------------------------------");
+            Console.WriteLine(divider);
             ListNumbers();
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
@@ -142,7 +143,7 @@ namespace BubbleAndInsertionSort_May2022
         {
             Console.WriteLine("Insertion sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            ListNumbers();
+            //ListNumbers();
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -165,7 +166,7 @@ namespace BubbleAndInsertionSort_May2022
                 }
             }
             stopwatch.Stop();
-            Console.WriteLine("------------------------------");
+            Console.WriteLine(divider);
             ListNumbers();
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
@@ -197,7 +198,7 @@ namespace BubbleAndInsertionSort_May2022
                 }
             }
             stopwatch.Stop();
-            Console.WriteLine("------------------------------");
+            Console.WriteLine(divider);
             ListNumbers();
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 

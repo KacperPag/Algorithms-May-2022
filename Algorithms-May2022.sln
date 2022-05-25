@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleAndInsertionSort-May2022", "BubbleAndInsertionSort-May2022\BubbleAndInsertionSort-May2022.csproj", "{C616ADA5-D9C5-444F-9018-4DE28837A381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms-May2022", "BubbleAndInsertionSort-May2022\Algorithms-May2022.csproj", "{C616ADA5-D9C5-444F-9018-4DE28837A381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
