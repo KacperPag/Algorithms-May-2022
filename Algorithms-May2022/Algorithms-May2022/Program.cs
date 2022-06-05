@@ -16,17 +16,8 @@ namespace Algorithms
         }
         static void GenerateNumbers()
         {
-            Console.WriteLine("How many numbers would you like to sort?");
-            int userInput = int.Parse(Console.ReadLine());
-            numbers = new int[userInput];
-            hasSwapped = true;
-            Console.WriteLine("Generating numbers... Please wait");
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Random random = new Random();
-                numbers[i] = random.Next(0, 100000);
-            }
-            Console.WriteLine("Numbers have been generated!");
+            numbers = GenerateNumbers(AskForIntInput());
+
             Console.WriteLine("Which type of sort would you like to use? Bubble/Insertion Sort");
             if (Console.ReadLine().ToLower() == "bubble")
             {
@@ -53,11 +44,39 @@ namespace Algorithms
                 }
             }
         }
-        static void ListNumbers()
+        static int[] GenerateNumbers(int arraySize)
         {
-            for (int i = 0; i < numbers.Length; i++)
+            int[] newArray = new int[arraySize];
+            hasSwapped = true;
+            Console.WriteLine("Generating numbers... Please wait");
+            for (int i = 0; i < newArray.Length; i++)
             {
-                Console.WriteLine(numbers[i]);
+                Random random = new Random();
+                newArray[i] = random.Next(0, 1000);
+            }
+            Console.WriteLine("Numbers have been generated!");
+            return newArray;
+        }
+        static int AskForIntInput()
+        {
+            Console.WriteLine("How many numbers would you like to sort?");
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out int convertedInt))
+            {
+                Console.WriteLine(convertedInt);
+                return convertedInt;
+            }
+            else
+            {
+                AskForIntInput();
+                return 0;
+            }
+        }
+        static void ListNumbers(int[] list)
+        {
+            for (int i = 0; i < list.Length; i++)
+            {
+                Console.WriteLine(list[i]);
             }
         }
         static void AskSortAgain()
@@ -75,7 +94,7 @@ namespace Algorithms
         {
             Console.WriteLine("Bubble sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -98,7 +117,7 @@ namespace Algorithms
             }
             stopwatch.Stop();
             Console.WriteLine(divider);
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
             AskSortAgain();
@@ -107,7 +126,7 @@ namespace Algorithms
         {
             Console.WriteLine("Bubble sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -125,13 +144,13 @@ namespace Algorithms
                         numbers[i] = lastNum;
                         numbers[i - 1] = currentNum;
                         hasSwapped = true;
-                        ListNumbers();
+                        ListNumbers(numbers);
                     }
                 }
             }
             stopwatch.Stop();
             Console.WriteLine(divider);
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
             AskSortAgain();
@@ -143,7 +162,7 @@ namespace Algorithms
         {
             Console.WriteLine("Insertion sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -167,7 +186,7 @@ namespace Algorithms
             }
             stopwatch.Stop();
             Console.WriteLine(divider);
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
             AskSortAgain();
@@ -176,7 +195,7 @@ namespace Algorithms
         {
             Console.WriteLine("Insertion sort it is!");
             Console.WriteLine("These are the numbers that are going to be sorted...");
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("Sorting... please wait...");
             stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -199,7 +218,7 @@ namespace Algorithms
             }
             stopwatch.Stop();
             Console.WriteLine(divider);
-            ListNumbers();
+            ListNumbers(numbers);
             Console.WriteLine("This sort took {0} ms", stopwatch.ElapsedMilliseconds);
 
             AskSortAgain();

@@ -12,3 +12,17 @@
 \\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.dll
 \\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.pdb
 \\scg.shrewsbury.ac.uk\files\EB\Student_Documents\21234830\Documents\Computer Science\C#\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.genruntimeconfig.cache
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.exe
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.deps.json
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.runtimeconfig.json
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.runtimeconfig.dev.json
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.dll
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\bin\Debug\netcoreapp3.1\Algorithms-May2022.pdb
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.csproj.AssemblyReference.cache
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.AssemblyInfoInputs.cache
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.AssemblyInfo.cs
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.dll
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.pdb
+C:\Users\kacpe\Source\Repos\Algorithms-May2022\Algorithms-May2022\Algorithms-May2022\obj\Debug\netcoreapp3.1\Algorithms-May2022.genruntimeconfig.cache
